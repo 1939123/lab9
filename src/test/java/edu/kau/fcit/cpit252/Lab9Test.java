@@ -19,7 +19,7 @@ public class Lab9Test {
     @Test
     public void testObserverAbstractClass() {
         assertTrue(Modifier.isAbstract(Observer.class.getModifiers()));
-        assertEquals(3, Observer.class.getDeclaredMethods().length);
+        assertEquals(4, Observer.class.getDeclaredMethods().length);
         Method[] methods = Observer.class.getDeclaredMethods();
         int abstractMethodCount = 0;
         for (Method m : methods) {
